@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16013B4A1A8476D800CFD476 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16013B491A8476D800CFD476 /* AppDelegate.m */; };
+		16013B4C1A8476D800CFD476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16013B4B1A8476D800CFD476 /* main.m */; };
+		16013B4F1A8476D800CFD476 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16013B4E1A8476D800CFD476 /* ViewController.m */; };
+		16013B521A8476D800CFD476 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 16013B511A8476D800CFD476 /* Document.m */; };
+		16013B541A8476D800CFD476 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16013B531A8476D800CFD476 /* Images.xcassets */; };
+		16013B571A8476D800CFD476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16013B551A8476D800CFD476 /* Main.storyboard */; };
+		16013B631A8476D800CFD476 /* Homework4JFBenoitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16013B621A8476D800CFD476 /* Homework4JFBenoitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16013B5D1A8476D800CFD476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16013B3B1A8476D800CFD476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16013B421A8476D800CFD476;
+			remoteInfo = Homework4JFBenoit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16013B431A8476D800CFD476 /* Homework4JFBenoit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework4JFBenoit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16013B471A8476D800CFD476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16013B481A8476D800CFD476 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16013B491A8476D800CFD476 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16013B4B1A8476D800CFD476 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16013B4D1A8476D800CFD476 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16013B4E1A8476D800CFD476 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16013B501A8476D800CFD476 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		16013B511A8476D800CFD476 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		16013B531A8476D800CFD476 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16013B561A8476D800CFD476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16013B5C1A8476D800CFD476 /* Homework4JFBenoitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework4JFBenoitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16013B611A8476D800CFD476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16013B621A8476D800CFD476 /* Homework4JFBenoitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework4JFBenoitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16013B401A8476D800CFD476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16013B591A8476D800CFD476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16013B3A1A8476D800CFD476 = {
+			isa = PBXGroup;
+			children = (
+				16013B451A8476D800CFD476 /* Homework4JFBenoit */,
+				16013B5F1A8476D800CFD476 /* Homework4JFBenoitTests */,
+				16013B441A8476D800CFD476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16013B441A8476D800CFD476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16013B431A8476D800CFD476 /* Homework4JFBenoit.app */,
+				16013B5C1A8476D800CFD476 /* Homework4JFBenoitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16013B451A8476D800CFD476 /* Homework4JFBenoit */ = {
+			isa = PBXGroup;
+			children = (
+				16013B481A8476D800CFD476 /* AppDelegate.h */,
+				16013B491A8476D800CFD476 /* AppDelegate.m */,
+				16013B4D1A8476D800CFD476 /* ViewController.h */,
+				16013B4E1A8476D800CFD476 /* ViewController.m */,
+				16013B501A8476D800CFD476 /* Document.h */,
+				16013B511A8476D800CFD476 /* Document.m */,
+				16013B531A8476D800CFD476 /* Images.xcassets */,
+				16013B551A8476D800CFD476 /* Main.storyboard */,
+				16013B461A8476D800CFD476 /* Supporting Files */,
+			);
+			path = Homework4JFBenoit;
+			sourceTree = "<group>";
+		};
+		16013B461A8476D800CFD476 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16013B471A8476D800CFD476 /* Info.plist */,
+				16013B4B1A8476D800CFD476 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16013B5F1A8476D800CFD476 /* Homework4JFBenoitTests */ = {
+			isa = PBXGroup;
+			children = (
+				16013B621A8476D800CFD476 /* Homework4JFBenoitTests.m */,
+				16013B601A8476D800CFD476 /* Supporting Files */,
+			);
+			path = Homework4JFBenoitTests;
+			sourceTree = "<group>";
+		};
+		16013B601A8476D800CFD476 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16013B611A8476D800CFD476 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16013B421A8476D800CFD476 /* Homework4JFBenoit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16013B661A8476D800CFD476 /* Build configuration list for PBXNativeTarget "Homework4JFBenoit" */;
+			buildPhases = (
+				16013B3F1A8476D800CFD476 /* Sources */,
+				16013B401A8476D800CFD476 /* Frameworks */,
+				16013B411A8476D800CFD476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homework4JFBenoit;
+			productName = Homework4JFBenoit;
+			productReference = 16013B431A8476D800CFD476 /* Homework4JFBenoit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16013B5B1A8476D800CFD476 /* Homework4JFBenoitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16013B691A8476D800CFD476 /* Build configuration list for PBXNativeTarget "Homework4JFBenoitTests" */;
+			buildPhases = (
+				16013B581A8476D800CFD476 /* Sources */,
+				16013B591A8476D800CFD476 /* Frameworks */,
+				16013B5A1A8476D800CFD476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16013B5E1A8476D800CFD476 /* PBXTargetDependency */,
+			);
+			name = Homework4JFBenoitTests;
+			productName = Homework4JFBenoitTests;
+			productReference = 16013B5C1A8476D800CFD476 /* Homework4JFBenoitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16013B3B1A8476D800CFD476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jacob Benoit";
+				TargetAttributes = {
+					16013B421A8476D800CFD476 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					16013B5B1A8476D800CFD476 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 16013B421A8476D800CFD476;
+					};
+				};
+			};
+			buildConfigurationList = 16013B3E1A8476D800CFD476 /* Build configuration list for PBXProject "Homework4JFBenoit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16013B3A1A8476D800CFD476;
+			productRefGroup = 16013B441A8476D800CFD476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16013B421A8476D800CFD476 /* Homework4JFBenoit */,
+				16013B5B1A8476D800CFD476 /* Homework4JFBenoitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16013B411A8476D800CFD476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16013B541A8476D800CFD476 /* Images.xcassets in Resources */,
+				16013B571A8476D800CFD476 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16013B5A1A8476D800CFD476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16013B3F1A8476D800CFD476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16013B521A8476D800CFD476 /* Document.m in Sources */,
+				16013B4F1A8476D800CFD476 /* ViewController.m in Sources */,
+				16013B4C1A8476D800CFD476 /* main.m in Sources */,
+				16013B4A1A8476D800CFD476 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16013B581A8476D800CFD476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16013B631A8476D800CFD476 /* Homework4JFBenoitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16013B5E1A8476D800CFD476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16013B421A8476D800CFD476 /* Homework4JFBenoit */;
+			targetProxy = 16013B5D1A8476D800CFD476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16013B551A8476D800CFD476 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16013B561A8476D800CFD476 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16013B641A8476D800CFD476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		16013B651A8476D800CFD476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		16013B671A8476D800CFD476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Homework4JFBenoit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16013B681A8476D800CFD476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Homework4JFBenoit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16013B6A1A8476D800CFD476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Homework4JFBenoitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework4JFBenoit.app/Contents/MacOS/Homework4JFBenoit";
+			};
+			name = Debug;
+		};
+		16013B6B1A8476D800CFD476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Homework4JFBenoitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework4JFBenoit.app/Contents/MacOS/Homework4JFBenoit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16013B3E1A8476D800CFD476 /* Build configuration list for PBXProject "Homework4JFBenoit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16013B641A8476D800CFD476 /* Debug */,
+				16013B651A8476D800CFD476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16013B661A8476D800CFD476 /* Build configuration list for PBXNativeTarget "Homework4JFBenoit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16013B671A8476D800CFD476 /* Debug */,
+				16013B681A8476D800CFD476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16013B691A8476D800CFD476 /* Build configuration list for PBXNativeTarget "Homework4JFBenoitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16013B6A1A8476D800CFD476 /* Debug */,
+				16013B6B1A8476D800CFD476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16013B3B1A8476D800CFD476 /* Project object */;
+}
