@@ -7,9 +7,18 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "TodoList.h"
 
-@interface ViewController : NSViewController
+@interface ViewController : NSViewController <NSTableViewDataSource, NSTableViewDelegate, NSTextFieldDelegate>
 
+@property (strong) TodoList *list;
+
+@property (weak) IBOutlet NSTableView *table;
+
+@property (weak) IBOutlet NSButton *addButton;
+@property (weak) IBOutlet NSButton *removeButton;
+@property (weak) IBOutlet NSTextField *titleField;
+@property (weak) IBOutlet NSTextField *descriptionField;
 
 @end
 

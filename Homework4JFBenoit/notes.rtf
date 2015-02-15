@@ -1,0 +1,26 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red65\green204\blue69;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 Notes\
+\pard\tx529\pardeftab529\pardirnatural
+
+\f1\fs22 \cf2 \CocoaLigature0 This did not work - removing item at index 0, then at index 3, leads to disaster. :) Turns out I was making it harder than necessary since NSMutableArray will just take NSIndexSet to delete items. But it was a good exercise in Blocks. \
+\cf3     [iset enumerateIndexesUsingBlock:\cf1 \
+\cf3         ^(NSUInteger index, BOOL *stop) \{\cf1 \
+\cf3             NSLog(@"deleting row at index %lu",index);\cf1 \
+\cf3             [self.list removeItemAtIndex:(NSInteger*)index];\cf1 \
+\cf3         \} ];
+\f0\fs24 \cf0 \CocoaLigature1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+The save files are xml - easy to inspect with an application like textwrangler.\
+\
+\
+Questions\
+\
+When I select an item in the table, the selectedColumn value is -1. And if I try to reloadDataForRowIndexes: columnIndexes, it fails if I use selectedColumnIndexes because selectedColumnIndexes is empty. I had to build a NSIndexSet with an index of 0 for it to work. Why is there no selected column value?\
+\
+}
